@@ -1,0 +1,15 @@
+# Dependency directories
+
+node_modules/
+
+
+
+# vcap-local.json
+config/vcap-local.json
+
+# file upload folder
+uploads/
+
+.env
+
+.vscode/launch.json
