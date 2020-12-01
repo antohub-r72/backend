@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/message', function(req, res, next) {
   //res.render('index', { title: 'Back End Services' });
   console.log("Got a req from frontend")
-  res.json({msg: 'Welcome to Backend Services!'})
+  res.json({msg: 'Welcome to Backend Services!',time: Date.now()})
 });
 
 module.exports = router;
